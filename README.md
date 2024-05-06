@@ -28,7 +28,7 @@ Have a look at the created folder `frames_<dashcam-movie>`
 ## Known Issue
 
 **Timezones**  
-Have a look on Line 21: `date -d "$i -0 hour" +'%Y%m%d%H%M.%S'`, you can modify the `-0 hour` to your needs.
+Have a look on Line 20: `date -d "$i -0 hour" +'%Y%m%d%H%M.%S'`, you can modify the `-0 hour` to your needs.
 
 You need to adjust here in one ore the other direction if the logs says all the time something like `Time is too far [beyond|before] track`
 

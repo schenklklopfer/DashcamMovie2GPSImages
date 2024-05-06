@@ -3,7 +3,6 @@
 INPUT=$1
 FILE=$(echo $INPUT | awk -F '.' '{print $1}')
 MOV="$FILE.MP4"
-GPS="$FILE.gps"
 GPX="$FILE.gpx"
 DEST="frames_$FILE"
 mkdir -p data
